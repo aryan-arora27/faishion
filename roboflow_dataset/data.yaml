@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['dress', 'hoodie', 'jeans', 'shirt', 'short', 'trouser', 'tshirt']
+
+roboflow:
+  workspace: myworkspace-4s1lj
+  project: faishion
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/myworkspace-4s1lj/faishion/dataset/1
